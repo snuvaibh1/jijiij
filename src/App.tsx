@@ -1,32 +1,18 @@
 import React from 'react';
-import Hero from './components/Hero';
-import PainPointSection from './components/PainPointSection';
-import ScrollStopperStats from './components/ScrollStopperStats';
-import IntroSection from './components/IntroSection';
-import CourseIntro from './components/CourseIntro';
-import Curriculum from './components/Curriculum';
-import WalkAwayWith from './components/WalkAwayWith';
-import ForYouIf from './components/ForYouIf';
-import Testimonials from './components/Testimonials';
-import OfferStack from './components/OfferStack';
-import Guarantee from './components/Guarantee';
-import FinalCTA from './components/FinalCTA';
+import PremiumHero from './components/PremiumHero';
+import LuxuryFeatures from './components/LuxuryFeatures';
+import PremiumStats from './components/PremiumStats';
+import ElegantTestimonials from './components/ElegantTestimonials';
+import LuxuryCTA from './components/LuxuryCTA';
 
 function App() {
   return (
-    <div className="min-h-screen" style={{ backgroundColor: '#F5EFE7' }}>
-      <Hero />
-      <PainPointSection />
-      <ScrollStopperStats />
-      <IntroSection />
-      <CourseIntro />
-      <Curriculum />
-      <WalkAwayWith />
-      <ForYouIf />
-      <Testimonials />
-      <OfferStack />
-      <Guarantee />
-      <FinalCTA />
+    <div className="min-h-screen bg-black overflow-hidden">
+      <PremiumHero />
+      <LuxuryFeatures />
+      <PremiumStats />
+      <ElegantTestimonials />
+      <LuxuryCTA />
     </div>
   );
 }
