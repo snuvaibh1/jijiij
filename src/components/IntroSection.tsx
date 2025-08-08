@@ -25,13 +25,22 @@ const IntroSection = () => {
           }}
         >
           <p>
-            If you've been stuck in the cycle of starting, failing, and blaming yourself…
+            If you feel stuck in a cycle of bingeing, restricting, guilt, and "starting again Monday"…
           </p>
           <p className="font-semibold">
-            It's not your willpower. It's the method.
+            You're not alone — and you're not the problem.
           </p>
           <p>
-            This is the first program designed specifically for Indian women that addresses emotional eating, body image, and real-life consistency — not just calories & workouts.
+            You've tried gym workouts, strict plans, calorie counting — but none addressed the real issue:
+          </p>
+          <p 
+            className="text-xl md:text-2xl font-bold p-6 rounded-2xl"
+            style={{ backgroundColor: '#FFDDD2' }}
+          >
+            Your emotions, mindset, and the pressure to be "perfect."
+          </p>
+          <p className="text-xl md:text-2xl font-bold">
+            This isn't a diet program. It's emotional healing for Indian women who are done with shame-based fitness.
           </p>
         </div>
       </div>

@@ -129,13 +129,11 @@ const PremiumHero = () => {
               letterSpacing: '-0.02em'
             }}
           >
-            <span className="block mb-1">You're Not Lazy.</span>
-            <span className="block text-white mb-1" style={{ textShadow: '0 4px 20px rgba(255,255,255,0.2)' }}>
-              You're Just Trapped
-            </span>
-            <span className="block">
-              in the Cycle.
-            </span>
+            ELEVATE
+            <br />
+            <span className="text-white">YOUR</span>
+            <br />
+            EXPERIENCE
           </h1>
         </div>
 
@@ -177,10 +175,10 @@ const PremiumHero = () => {
             {/* Video Title */}
             <div className="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-black/80 to-transparent">
               <h3 className="text-white text-2xl font-bold mb-2">
-                🔥 How Sarah Broke Her 10-Year Binge Cycle
+                The Transformation Journey
               </h3>
               <p className="text-green-400 text-lg font-medium">
-                The exact emotional healing process that changed everything
+                Witness the power of premium change
               </p>
             </div>
             
@@ -193,7 +191,7 @@ const PremiumHero = () => {
                 color: '#22c55e'
               }}
             >
-              12:34
+              8:42
             </div>
           </div>
         </div>
@@ -211,8 +209,9 @@ const PremiumHero = () => {
               color: '#000000'
             }}
           >
+            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent transform -skew-x-12 group-hover:translate-x-full transition-transform duration-1000" />
             <span className="relative z-10 flex items-center gap-3">
-              👉 JOIN NOW – JUST ₹4,999
+              BEGIN YOUR JOURNEY
               <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
             </span>
           </button>
@@ -228,40 +227,16 @@ const PremiumHero = () => {
             }}
           >
             <span className="flex items-center gap-3">
-              Break the Loop of Diet → Binge → Guilt
-              (Without Willpower or Self-Hate)
+              EXPLORE FEATURES
+              <div className="w-2 h-2 bg-green-400 rounded-full group-hover:animate-pulse" />
             </span>
           </button>
-        </div>
-
-        {/* Urgency Banner */}
-        <div className={`mb-4 md:mb-6 transform transition-all duration-1000 delay-1700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-5 opacity-0'}`}>
-          <div 
-            className="p-4 md:p-6 rounded-2xl shadow-2xl border backdrop-blur-sm max-w-2xl mx-auto"
-            style={{
-              background: 'linear-gradient(135deg, rgba(255, 69, 0, 0.1) 0%, rgba(255, 140, 0, 0.05) 100%)',
-              borderColor: 'rgba(255, 69, 0, 0.3)',
-              boxShadow: '0 15px 35px rgba(255, 69, 0, 0.2), inset 0 1px 0 rgba(255,255,255,0.1)'
-            }}
-          >
-            <div className="text-center">
-              <p className="text-lg md:text-xl font-bold text-white mb-2">
-                ⚡ Special Launch Offer Ends In:
-              </p>
-              <div className="text-2xl md:text-3xl font-black text-yellow-300 mb-2">
-                2 Days 14:23:45
-              </div>
-              <p className="text-sm md:text-base text-orange-200">
-                💡 Price will increase to ₹7,999 after the timer ends.
-              </p>
-            </div>
-          </div>
         </div>
 
         {/* Trust Indicators */}
         <div className={`flex flex-wrap items-center justify-center gap-8 text-sm transform transition-all duration-2000 delay-1200 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-5 opacity-0'}`}>
           {[
-            'Made for Indian Women',
+            'Premium Quality',
             'Lifetime Access',
             'Expert Support',
             'Satisfaction Guaranteed'
