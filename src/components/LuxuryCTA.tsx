@@ -41,15 +41,15 @@ const LuxuryCTA = () => {
   const benefits = [
     {
       icon: <Crown className="w-6 h-6" />,
-      text: "Premium Quality Guaranteed"
+      text: "Binge Emergency Toolkit (₹1,499 value)"
     },
     {
       icon: <Shield className="w-6 h-6" />,
-      text: "Enterprise-Grade Security"
+      text: "Weekly Emotional Check-In Worksheets (₹999 value)"
     },
     {
       icon: <Zap className="w-6 h-6" />,
-      text: "Lightning-Fast Performance"
+      text: "30-Min Masterclass: Stop Weekend Overeating (₹2,499 value)"
     }
   ];
 
@@ -138,15 +138,15 @@ const LuxuryCTA = () => {
               letterSpacing: '-0.02em'
             }}
           >
-            READY TO
+            TODAY'S
             <br />
-            <span className="text-white">TRANSFORM?</span>
+            <span className="text-white">EXCLUSIVE OFFER</span>
           </h2>
 
           {/* Subheadline */}
           <p className="text-xl md:text-2xl lg:text-3xl text-gray-300 mb-12 max-w-4xl mx-auto leading-relaxed">
-            Join the elite community of users who demand nothing but the best. 
-            <span className="text-green-400 font-semibold"> Your premium experience awaits.</span>
+            One-Time Payment: ₹4,999 (Save ₹4,000 – Normally ₹8,999)
+            <span className="text-green-400 font-semibold"> Limited time only!</span>
           </p>
         </div>
 
@@ -189,7 +189,7 @@ const LuxuryCTA = () => {
             
             {/* Button Content */}
             <span className="relative z-10 flex items-center gap-4">
-              START YOUR PREMIUM JOURNEY
+              YES! I'M READY TO HEAL – ENROLL NOW
               <ArrowRight className="w-8 h-8 group-hover:translate-x-2 transition-transform duration-500" />
             </span>
 
@@ -216,7 +216,7 @@ const LuxuryCTA = () => {
             }}
           >
             <span className="flex items-center gap-3">
-              Watch Demo
+              7-Day Money-Back Guarantee
               <div className="w-2 h-2 bg-green-400 rounded-full group-hover:animate-pulse" />
             </span>
           </button>
@@ -231,7 +231,7 @@ const LuxuryCTA = () => {
             }}
           >
             <span className="flex items-center gap-3">
-              Contact Sales
+              Instant Access on Payment
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </span>
           </button>
@@ -248,13 +248,13 @@ const LuxuryCTA = () => {
             }}
           >
             <p className="text-gray-300 text-lg mb-2">
-              <span className="text-green-400 font-bold">50,000+</span> premium users trust our platform
+              <span className="text-green-400 font-bold">Total Value: ₹13,996</span> - You Pay Today: ₹4,999
             </p>
             <div className="flex items-center justify-center gap-2 text-sm text-gray-400">
               <Shield className="w-4 h-4 text-green-400" />
-              <span>30-day money-back guarantee</span>
+              <span>Works on mobile, tablet, and desktop</span>
               <div className="w-1 h-1 bg-gray-400 rounded-full" />
-              <span>24/7 premium support</span>
+              <span>Instant access on payment</span>
             </div>
           </div>
         </div>

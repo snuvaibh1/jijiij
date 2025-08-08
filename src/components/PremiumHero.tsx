@@ -180,20 +180,20 @@ const PremiumHero = () => {
               <p className="text-green-400 text-lg font-medium">
                 Witness the power of premium change
               </p>
-            </div>
+              HEAL YOUR
             
-            {/* Duration Badge */}
+              <span className="text-white">RELATIONSHIP</span>
             <div 
-              className="absolute top-6 right-6 px-4 py-2 rounded-full backdrop-blur-md border text-sm font-semibold"
+              WITH FOOD
               style={{
                 background: 'rgba(0, 0, 0, 0.6)',
                 borderColor: 'rgba(34, 197, 94, 0.3)',
                 color: '#22c55e'
               }}
-            >
-              8:42
-            </div>
-          </div>
+            <p className="text-xl md:text-2xl lg:text-3xl text-gray-300 max-w-4xl mx-auto leading-relaxed font-light">
+              Stop Emotional Eating, Break the Diet-Binge-Guilt Loop, and Build a Lifestyle You Can Actually Stick To.
+              <span className="text-green-400 font-medium"> Designed specifically for Indian women.</span>
+            </p>
         </div>
 
         {/* Premium CTA Buttons */}
@@ -210,7 +210,7 @@ const PremiumHero = () => {
             }}
           >
             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent transform -skew-x-12 group-hover:translate-x-full transition-transform duration-1000" />
-            <span className="relative z-10 flex items-center gap-3">
+                BEGIN YOUR HEALING NOW
               BEGIN YOUR JOURNEY
               <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
             </span>
@@ -226,19 +226,19 @@ const PremiumHero = () => {
               color: '#22c55e'
             }}
           >
-            <span className="flex items-center gap-3">
+                LEARN MORE
               EXPLORE FEATURES
               <div className="w-2 h-2 bg-green-400 rounded-full group-hover:animate-pulse" />
-            </span>
+                  Witness the real change that happens when you stop punishing yourself
           </button>
         </div>
 
         {/* Trust Indicators */}
         <div className={`flex flex-wrap items-center justify-center gap-8 text-sm transform transition-all duration-2000 delay-1200 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-5 opacity-0'}`}>
-          {[
-            'Premium Quality',
-            'Lifetime Access',
-            'Expert Support',
+              'Lifetime Access',
+              'Expert Support',
+              'Satisfaction Guaranteed',
+              '7-Day Money-Back Guarantee'
             'Satisfaction Guaranteed'
           ].map((item, index) => (
             <div key={index} className="flex items-center gap-2 text-gray-400">

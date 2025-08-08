@@ -8,28 +8,28 @@ const ElegantTestimonials = () => {
 
   const testimonials = [
     {
-      name: "Alexandra Chen",
-      role: "CEO, TechVision",
+      name: "Aarti S.",
+      role: "Age 33",
       avatar: "https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
-      content: "This platform has revolutionized how we approach digital transformation. The attention to detail and premium experience is unmatched in the industry.",
+      content: "I used to eat every time I felt stressed. Now, I feel in control and lighter — not just in my body, but in my mind.",
       rating: 5,
-      company: "Fortune 500"
+      company: "Verified Student"
     },
     {
-      name: "Marcus Rodriguez",
-      role: "Creative Director",
+      name: "Sneha R.",
+      role: "Age 27",
       avatar: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
-      content: "The level of sophistication and elegance in every interaction is remarkable. It's not just a product, it's a premium experience that elevates our entire workflow.",
+      content: "This isn't another diet. It healed my relationship with food and myself. I finally understand why I was stuck in that cycle.",
       rating: 5,
-      company: "Design Studio"
+      company: "Verified Student"
     },
     {
-      name: "Sophia Williams",
-      role: "Innovation Lead",
+      name: "Priya M.",
+      role: "Age 29",
       avatar: "https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop",
-      content: "Exceptional quality meets cutting-edge technology. This solution has exceeded every expectation and delivered results beyond what we thought possible.",
+      content: "For the first time in years, I can enjoy food without guilt. This course gave me tools I never knew I needed.",
       rating: 5,
-      company: "Global Enterprise"
+      company: "Verified Student"
     }
   ];
 
@@ -124,7 +124,7 @@ const ElegantTestimonials = () => {
               letterSpacing: '-0.02em'
             }}
           >
-            TRUSTED BY LEADERS
+            WHAT OUR STUDENTS SAY
           </h2>
         </div>
 

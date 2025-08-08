@@ -12,40 +12,40 @@ const PremiumStats = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
 
   const finalStats = {
-    users: 50000,
-    satisfaction: 99,
-    performance: 300,
-    awards: 25
+    users: 85,
+    satisfaction: 92,
+    performance: 100,
+    awards: 4
   };
 
   const statItems = [
     {
       icon: <Users className="w-8 h-8" />,
-      value: stats.users.toLocaleString(),
+      value: stats.users,
       suffix: '+',
-      label: 'Premium Users',
-      description: 'Trust our platform worldwide'
+      label: 'Less Binge Eating',
+      description: 'Report improvement in 4 weeks'
     },
     {
       icon: <Award className="w-8 h-8" />,
       value: stats.satisfaction,
       suffix: '%',
-      label: 'Satisfaction Rate',
-      description: 'Exceptional user experience'
+      label: 'Feel More in Control',
+      description: 'Of their food choices'
     },
     {
       icon: <Zap className="w-8 h-8" />,
       value: stats.performance,
       suffix: '%',
-      label: 'Performance Boost',
-      description: 'Faster than competitors'
+      label: 'Would Recommend',
+      description: 'This program to a friend'
     },
     {
       icon: <TrendingUp className="w-8 h-8" />,
       value: stats.awards,
-      suffix: '+',
-      label: 'Industry Awards',
-      description: 'Recognition for excellence'
+      suffix: ' weeks',
+      label: 'Average Results',
+      description: 'To see lasting change'
     }
   ];
 
@@ -149,10 +149,10 @@ const PremiumStats = () => {
               letterSpacing: '-0.02em'
             }}
           >
-            PROVEN EXCELLENCE
+            PROVEN RESULTS
           </h2>
           <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto">
-            Numbers that speak to our commitment to delivering exceptional results.
+            We've helped hundreds of women end emotional eating, feel confident in their skin, and finally maintain a healthy lifestyle.
           </p>
         </div>
 

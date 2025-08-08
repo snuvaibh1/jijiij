@@ -9,26 +9,26 @@ const LuxuryFeatures = () => {
   const features = [
     {
       icon: <Crown className="w-12 h-12" />,
-      title: "Premium Excellence",
-      description: "Crafted with meticulous attention to detail and uncompromising quality standards.",
+      title: "Why You Eat When You're Not Hungry",
+      description: "Understand your emotional eating triggers and how to stop them without 'willpower.'",
       gradient: "from-yellow-400 to-orange-500"
     },
     {
       icon: <Zap className="w-12 h-12" />,
-      title: "Lightning Performance",
-      description: "Experience blazing-fast results with our cutting-edge optimization technology.",
+      title: "Body Image Reset",
+      description: "Break free from body shame and constant self-criticism.",
       gradient: "from-blue-400 to-purple-500"
     },
     {
       icon: <Shield className="w-12 h-12" />,
-      title: "Absolute Security",
-      description: "Your data is protected by military-grade encryption and advanced security protocols.",
+      title: "Rewire the Reward System",
+      description: "Train your brain to stop cravings naturally.",
       gradient: "from-green-400 to-emerald-500"
     },
     {
       icon: <Sparkles className="w-12 h-12" />,
-      title: "Exclusive Access",
-      description: "Join an elite community with access to premium features and priority support.",
+      title: "Food Freedom, Not Food Fear",
+      description: "End 'good food vs bad food' guilt for good.",
       gradient: "from-pink-400 to-rose-500"
     }
   ];
@@ -116,11 +116,11 @@ const LuxuryFeatures = () => {
               letterSpacing: '-0.02em'
             }}
           >
-            LUXURY REDEFINED
+            THE 7 MODULES THAT WILL CHANGE YOUR LIFE
           </h2>
           
           <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Experience the pinnacle of digital excellence with features designed for the most demanding users.
+            We've combined psychology, cultural food freedom, and proven habit systems to help you finally get lasting results.
           </p>
         </div>
 
