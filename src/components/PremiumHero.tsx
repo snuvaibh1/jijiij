@@ -328,6 +328,7 @@ const PremiumHero = () => {
         }
       `}</style>
     </section>
+  )
   );
 };
 
