@@ -24,7 +24,7 @@ const Guarantee = () => {
             color: '#2B3A55' 
           }}
         >
-          🔐 100% Risk-Free Guarantee
+          🔐 7-Day 100% Money-Back Guarantee
         </h2>
         
         <div 
@@ -38,7 +38,7 @@ const Guarantee = () => {
               color: '#2B3A55' 
             }}
           >
-            Try the course for <strong>7 days</strong>. If you don't feel emotionally better or see change in your relationship with food, we'll refund you. <strong>No questions asked.</strong>
+            Try it for 7 days. If it doesn't help you feel in control around food, get a full refund. No questions asked.
           </p>
         </div>
       </div>

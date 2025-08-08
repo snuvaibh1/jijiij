@@ -5,19 +5,19 @@ const WalkAwayWith = () => {
   const outcomes = [
     {
       icon: <Heart className="w-10 h-10" />,
-      title: "A calm, balanced mindset around food"
+      title: "Calm, balanced mindset around food"
     },
     {
       icon: <Shield className="w-10 h-10" />,
-      title: "Emotional tools to end guilt & self-blame"
+      title: "No more guilt or shame after eating"
     },
     {
       icon: <Zap className="w-10 h-10" />,
-      title: "Consistency without burnout or pressure"
+      title: "Fitness habits that stick"
     },
     {
       icon: <UserCheck className="w-10 h-10" />,
-      title: "A body you trust and care for — not fight against"
+      title: "A body you respect — without punishment"
     }
   ];
 

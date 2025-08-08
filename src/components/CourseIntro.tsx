@@ -47,7 +47,7 @@ const CourseIntro = () => {
               color: '#2B3A55' 
             }}
           >
-            A 7-Module Digital Course To Heal Your Relationship With Food, Mind & Body
+            A 7-Module Emotional Eating Recovery System
           </p>
         </div>
         

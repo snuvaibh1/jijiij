@@ -6,32 +6,32 @@ const OfferStack = () => {
     {
       icon: <GraduationCap className="w-8 h-8" />,
       title: "7-Module Video Course",
-      value: "₹12,000"
+      value: "₹9,999"
     },
     {
       icon: <BookOpen className="w-8 h-8" />,
       title: "Emotional Eating Recovery Journal",
-      value: "₹2,500"
+      value: "₹1,999"
     },
     {
       icon: <FileText className="w-8 h-8" />,
       title: "Food Guilt Release Worksheet",
-      value: "₹1,500"
+      value: "₹999"
     },
     {
       icon: <Heart className="w-8 h-8" />,
       title: "Self-Love Mirror Ritual",
-      value: "₹2,000"
+      value: "₹1,499"
     },
     {
       icon: <MessageCircle className="w-8 h-8" />,
       title: "Daily WhatsApp Motivation (21 Days)",
-      value: "₹3,000"
+      value: "₹2,499"
     },
     {
       icon: <Users className="w-8 h-8" />,
       title: "Private Community Support",
-      value: "₹4,000"
+      value: "₹3,999"
     }
   ];
 
@@ -45,8 +45,8 @@ const OfferStack = () => {
             color: '#2B3A55' 
           }}
         >
-          Here's Everything You'll Get for{' '}
-          <span style={{ color: '#9EB384' }}>₹4,999</span>
+          Join Today and Get These Bonuses FREE{' '}
+          <span style={{ color: '#9EB384' }}>(Only Until the Timer Hits Zero):</span>
         </h2>
         
         <div className="space-y-6 mb-12">
@@ -76,7 +76,7 @@ const OfferStack = () => {
                 className="text-lg md:text-xl font-bold"
                 style={{ color: '#9EB384' }}
               >
-                {item.value}
+                {item.value} Value
               </div>
             </div>
           ))}
@@ -93,7 +93,7 @@ const OfferStack = () => {
               color: '#2B3A55' 
             }}
           >
-            Total Value: ₹24,999
+            Total Value: ₹20,994
           </p>
           <p 
             className="text-3xl md:text-4xl font-bold"
@@ -106,6 +106,19 @@ const OfferStack = () => {
           </p>
         </div>
         
+        {/* Bonus Expiry Note */}
+        <div 
+          className="text-center p-6 rounded-2xl mb-8"
+          style={{ backgroundColor: '#FFE4E1' }}
+        >
+          <p 
+            className="text-lg md:text-xl font-bold text-red-600"
+            style={{ fontFamily: 'Montserrat, sans-serif' }}
+          >
+            ⚡ These bonuses disappear after: 2 Days 14:23:45
+          </p>
+        </div>
+        
         <div className="text-center">
           <button 
             className="inline-flex items-center gap-3 px-8 py-4 md:px-10 md:py-5 text-lg md:text-xl font-bold text-white rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
@@ -114,7 +127,7 @@ const OfferStack = () => {
               fontFamily: 'Montserrat, sans-serif'
             }}
           >
-            YES! I'm Ready to Heal – Enroll Now
+            👉 Yes, I Want to Break the Cycle
             <ArrowRight className="w-6 h-6" />
           </button>
         </div>
