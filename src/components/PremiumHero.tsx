@@ -318,7 +318,3 @@ const PremiumHero = () => {
 };
 
 export default PremiumHero;
-  )
-}
-  )
-}
