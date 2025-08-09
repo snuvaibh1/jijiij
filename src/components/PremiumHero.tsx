@@ -7,8 +7,7 @@ const PremiumHero = () => {
 
   useEffect(() => {
     setIsVisible(true);
-    
-    // Track mouse movement for parallax effects
+
     const handleMouseMove = (e: MouseEvent) => {
       setMousePosition({
         x: (e.clientX / window.innerWidth) * 100,
@@ -22,8 +21,8 @@ const PremiumHero = () => {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Premium Background with Gradient Mesh */}
-      <div 
+      {/* Background */}
+      <div
         className="absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-black"
         style={{
           background: `
@@ -35,10 +34,10 @@ const PremiumHero = () => {
         }}
       />
 
-      {/* Floating Glass Elements - Exactly 3 as requested */}
+      {/* Glass Elements */}
       <div className="absolute inset-0 pointer-events-none">
-        {/* Glass Element 1 - Top Right */}
-        <div 
+        {/* 3 floating glass divs */}
+        <div
           className="glass-float-1 absolute w-96 h-64 rounded-3xl"
           style={{
             background: 'linear-gradient(135deg, rgba(34, 197, 94, 0.1) 0%, rgba(16, 185, 129, 0.05) 100%)',
@@ -50,9 +49,7 @@ const PremiumHero = () => {
             animation: 'float-slow 20s ease-in-out infinite'
           }}
         />
-        
-        {/* Glass Element 2 - Middle Left */}
-        <div 
+        <div
           className="glass-float-2 absolute w-80 h-80 rounded-full"
           style={{
             background: 'linear-gradient(45deg, rgba(16, 185, 129, 0.08) 0%, rgba(34, 197, 94, 0.04) 100%)',
@@ -64,9 +61,7 @@ const PremiumHero = () => {
             animation: 'float-medium 15s ease-in-out infinite reverse'
           }}
         />
-        
-        {/* Glass Element 3 - Bottom Center */}
-        <div 
+        <div
           className="glass-float-3 absolute w-72 h-48 rounded-2xl"
           style={{
             background: 'linear-gradient(90deg, rgba(34, 197, 94, 0.06) 0%, rgba(16, 185, 129, 0.08) 100%)',
@@ -81,7 +76,7 @@ const PremiumHero = () => {
         />
       </div>
 
-      {/* Animated Particles */}
+      {/* Particles */}
       <div className="absolute inset-0 pointer-events-none">
         {[...Array(50)].map((_, i) => (
           <div
@@ -99,10 +94,9 @@ const PremiumHero = () => {
 
       {/* Main Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">
-        
-        {/* Premium Badge */}
+        {/* Badge */}
         <div className={`mb-8 transform transition-all duration-2000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-          <div 
+          <div
             className="inline-flex items-center gap-3 px-8 py-4 rounded-full backdrop-blur-md border hover:scale-105 transition-all duration-500"
             style={{
               background: 'linear-gradient(135deg, rgba(34, 197, 94, 0.1) 0%, rgba(16, 185, 129, 0.05) 100%)',
@@ -115,9 +109,9 @@ const PremiumHero = () => {
           </div>
         </div>
 
-        {/* Cinematic Headline */}
+        {/* Headline */}
         <div className={`mb-8 transform transition-all duration-2000 delay-300 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}`}>
-          <h1 
+          <h1
             className="text-6xl md:text-8xl lg:text-9xl font-black leading-tight mb-6"
             style={{
               fontFamily: 'Inter, system-ui, sans-serif',
@@ -137,7 +131,7 @@ const PremiumHero = () => {
           </h1>
         </div>
 
-        {/* Premium Subtitle */}
+        {/* Subtitle */}
         <div className={`mb-12 transform transition-all duration-2000 delay-500 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-15 opacity-0'}`}>
           <p className="text-xl md:text-2xl lg:text-3xl text-gray-300 max-w-4xl mx-auto leading-relaxed font-light">
             Stop Emotional Eating, Break the Diet-Binge-Guilt Loop, and Build a Lifestyle You Can Actually Stick To.
@@ -145,9 +139,9 @@ const PremiumHero = () => {
           </p>
         </div>
 
-        {/* Premium Video Container */}
+        {/* Video */}
         <div className={`mb-12 max-w-5xl mx-auto transform transition-all duration-2000 delay-700 ${isVisible ? 'scale-100 opacity-100' : 'scale-95 opacity-0'}`}>
-          <div 
+          <div
             className="relative aspect-video rounded-3xl overflow-hidden group cursor-pointer backdrop-blur-md border hover:scale-105 transition-all duration-700"
             style={{
               background: 'linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(34, 197, 94, 0.1) 100%)',
@@ -155,12 +149,9 @@ const PremiumHero = () => {
               boxShadow: '0 30px 60px rgba(0, 0, 0, 0.5), 0 0 100px rgba(34, 197, 94, 0.1)'
             }}
           >
-            {/* Video Overlay */}
             <div className="absolute inset-0 bg-gradient-to-br from-transparent via-black/20 to-black/40" />
-            
-            {/* Luxury Play Button */}
             <div className="absolute inset-0 flex items-center justify-center">
-              <div 
+              <div
                 className="w-24 h-24 rounded-full flex items-center justify-center backdrop-blur-md border group-hover:scale-110 transition-all duration-500"
                 style={{
                   background: 'linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(34, 197, 94, 0.1) 100%)',
@@ -171,23 +162,16 @@ const PremiumHero = () => {
                 <Play className="w-8 h-8 text-green-400 ml-1" fill="currentColor" />
               </div>
             </div>
-            
-            {/* Video Title */}
             <div className="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-black/80 to-transparent">
-              <h3 className="text-white text-2xl font-bold mb-2">
-                Your Healing Journey
-              </h3>
-              <p className="text-green-400 text-lg font-medium">
-                Witness the real change that happens when you stop punishing yourself
-              </p>
+              <h3 className="text-white text-2xl font-bold mb-2">Your Healing Journey</h3>
+              <p className="text-green-400 text-lg font-medium">Witness the real change that happens when you stop punishing yourself</p>
             </div>
+          </div>
         </div>
 
-        {/* Premium CTA Buttons */}
+        {/* CTA */}
         <div className={`flex flex-col md:flex-row items-center justify-center gap-6 mb-8 transform transition-all duration-2000 delay-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-          
-          {/* Primary CTA */}
-          <button 
+          <button
             className="group relative px-12 py-6 rounded-2xl font-bold text-xl overflow-hidden backdrop-blur-md border hover:scale-105 transition-all duration-500"
             style={{
               background: 'linear-gradient(135deg, #22c55e 0%, #10b981 100%)',
@@ -202,9 +186,7 @@ const PremiumHero = () => {
               <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
             </span>
           </button>
-
-          {/* Secondary CTA */}
-          <button 
+          <button
             className="group px-12 py-6 rounded-2xl font-bold text-xl backdrop-blur-md border hover:scale-105 transition-all duration-500"
             style={{
               background: 'linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(34, 197, 94, 0.05) 100%)',
@@ -222,8 +204,9 @@ const PremiumHero = () => {
 
         {/* Trust Indicators */}
         <div className={`flex flex-wrap items-center justify-center gap-8 text-sm transform transition-all duration-2000 delay-1200 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-5 opacity-0'}`}>
+          {[
             'Lifetime Access',
-            'Expert Support', 
+            'Expert Support',
             'Satisfaction Guaranteed',
             '7-Day Money-Back Guarantee'
           ].map((item, index) => (
@@ -235,82 +218,31 @@ const PremiumHero = () => {
         </div>
       </div>
 
-      {/* Custom CSS Animations */}
+      {/* Animations */}
       <style jsx>{`
         @keyframes float-slow {
-          0%, 100% { 
-            transform: translateY(0px) rotate(0deg); 
-            opacity: 0.6;
-          }
-          25% { 
-            transform: translateY(-20px) rotate(1deg); 
-            opacity: 0.8;
-          }
-          50% { 
-            transform: translateY(-10px) rotate(-1deg); 
-            opacity: 0.7;
-          }
-          75% { 
-            transform: translateY(-30px) rotate(0.5deg); 
-            opacity: 0.9;
-          }
+          0%, 100% { transform: translateY(0px) rotate(0deg); opacity: 0.6; }
+          25% { transform: translateY(-20px) rotate(1deg); opacity: 0.8; }
+          50% { transform: translateY(-10px) rotate(-1deg); opacity: 0.7; }
+          75% { transform: translateY(-30px) rotate(0.5deg); opacity: 0.9; }
         }
-        
         @keyframes float-medium {
-          0%, 100% { 
-            transform: translateY(0px) rotate(0deg) scale(1); 
-            opacity: 0.5;
-          }
-          33% { 
-            transform: translateY(-15px) rotate(-2deg) scale(1.05); 
-            opacity: 0.7;
-          }
-          66% { 
-            transform: translateY(-25px) rotate(1deg) scale(0.95); 
-            opacity: 0.8;
-          }
+          0%, 100% { transform: translateY(0px) rotate(0deg) scale(1); opacity: 0.5; }
+          33% { transform: translateY(-15px) rotate(-2deg) scale(1.05); opacity: 0.7; }
+          66% { transform: translateY(-25px) rotate(1deg) scale(0.95); opacity: 0.8; }
         }
-        
         @keyframes float-fast {
-          0%, 100% { 
-            transform: translateX(-50%) translateY(0px) rotate(0deg); 
-            opacity: 0.4;
-          }
-          20% { 
-            transform: translateX(-50%) translateY(-12px) rotate(1deg); 
-            opacity: 0.6;
-          }
-          40% { 
-            transform: translateX(-50%) translateY(-8px) rotate(-0.5deg); 
-            opacity: 0.8;
-          }
-          60% { 
-            transform: translateX(-50%) translateY(-18px) rotate(0.8deg); 
-            opacity: 0.7;
-          }
-          80% { 
-            transform: translateX(-50%) translateY(-5px) rotate(-1deg); 
-            opacity: 0.9;
-          }
+          0%, 100% { transform: translateX(-50%) translateY(0px) rotate(0deg); opacity: 0.4; }
+          20% { transform: translateX(-50%) translateY(-12px) rotate(1deg); opacity: 0.6; }
+          40% { transform: translateX(-50%) translateY(-8px) rotate(-0.5deg); opacity: 0.8; }
+          60% { transform: translateX(-50%) translateY(-18px) rotate(0.8deg); opacity: 0.7; }
+          80% { transform: translateX(-50%) translateY(-5px) rotate(-1deg); opacity: 0.9; }
         }
-        
         @keyframes particle-float {
-          0%, 100% { 
-            transform: translateY(0px) translateX(0px) scale(1); 
-            opacity: 0.3;
-          }
-          25% { 
-            transform: translateY(-20px) translateX(10px) scale(1.2); 
-            opacity: 0.6;
-          }
-          50% { 
-            transform: translateY(-10px) translateX(-8px) scale(0.8); 
-            opacity: 0.4;
-          }
-          75% { 
-            transform: translateY(-25px) translateX(5px) scale(1.1); 
-            opacity: 0.7;
-          }
+          0%, 100% { transform: translateY(0px) translateX(0px) scale(1); opacity: 0.3; }
+          25% { transform: translateY(-20px) translateX(10px) scale(1.2); opacity: 0.6; }
+          50% { transform: translateY(-10px) translateX(-8px) scale(0.8); opacity: 0.4; }
+          75% { transform: translateY(-25px) translateX(5px) scale(1.1); opacity: 0.7; }
         }
       `}</style>
     </section>
@@ -318,5 +250,3 @@ const PremiumHero = () => {
 };
 
 export default PremiumHero;
-  )
-}
