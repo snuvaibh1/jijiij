@@ -314,7 +314,6 @@ const PremiumHero = () => {
         }
       `}</style>
     </section>
-  )
   );
 };
 
